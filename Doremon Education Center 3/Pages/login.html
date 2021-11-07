@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DEC LogIn</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/login.css">
+   <style>
+       body{
+            height: 100vh;
+        }
+   </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <h1 class="logo">Doremon</h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Pages/blog.html">Blog</a></li>
+                <li><a class="active" href="../Pages/login.html">LogIn</a></li>
+                <li><a href="../Pages/about.html">About</a></li>
+                <li><a href="../Pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="center">
+         <h1>Login</h1>
+         <form action="../index.html" method="post">
+            <div class="text-field">
+                <input type="text" name="uname" id="uid" required>
+                <span></span>
+                <label for="uname">Username</label>
+            </div>
+
+            <div class="text-field">
+                <input type="password" name="upass" id="upass" required>
+                <span></span>
+                <label for="upass">Password</label>
+            </div>
+            <!-- <div class="text-field signup">
+                <input type="password" name="upass" id="upass" required>
+                <span></span>
+                <label for="upass">Conform Password</label>
+            </div> -->
+
+            <div class="fpass">Forgot Password ?</div>
+            <input type="Submit" value="Login">
+            <div class="signup_link">
+                Not a member ? <a href="#">Sign up</a>
+            </div>
+
+        </form> 
+        </div>
+    </div>
+    
+</body>
+</html>
